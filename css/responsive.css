@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+      .table-header {
+        display: none;
+      }
+
+      .table-row {
+        display: block;
+        border: 1px solid #ddd;
+        margin-bottom: 15px;
+        padding: 10px;
+        border-radius: 10px;
+      }
+
+      .table-row img {
+        display: block;
+        margin: 0 auto 10px;
+      }
+
+      .table-row div {
+        margin-bottom: 6px;
+      }
+
+      .table-row div::before {
+       
+        font-weight: bold;
+        color: #555;
+      }
+    }

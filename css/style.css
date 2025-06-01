@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: #ffff;
+}
+
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    .table {
+      width: 100%;
+    }
+
+    .table-header, .table-row {
+      display: grid;
+      grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr 1fr;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 2px solid #000000;
+    }
+
+    .table-header {
+      font-weight: 600;
+      color: #2d75f3;
+      font-size: 20px;
+    }
+
+    
